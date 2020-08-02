@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GroupChatActivity">
+
+    <!--TODO need to change the color-->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+
+        <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/My_scroll_View"
+        android:layout_below="@+id/my_toolbar"
+        android:layout_above="@+id/message_box_linear_layout"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/group_chat_text_display"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textColor="@android:color/background_dark"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="50dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <LinearLayout
+        android:id="@+id/message_box_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_alignParentBottom="true">
+
+        <EditText
+            android:id="@+id/message_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="@string/message_box_hint" />
+
+        <ImageButton
+            android:id="@+id/SendImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_send" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

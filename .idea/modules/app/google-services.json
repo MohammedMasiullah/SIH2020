@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "257739367117",
+    "firebase_url": "https://safetyappv1.firebaseio.com",
+    "project_id": "safetyappv1",
+    "storage_bucket": "safetyappv1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:257739367117:android:007fbccdfac8c9db063f84",
+        "android_client_info": {
+          "package_name": "com.example.safetyappv1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "257739367117-c6mcrl288p74smnoibguf4ddqtj4kna5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.safetyappv1",
+            "certificate_hash": "e3bf5fd7686fc0f3316451b0f9f6e4dfd3714381"
+          }
+        },
+        {
+          "client_id": "257739367117-kb97u08d2pu96ugj0654prggnco8m3ve.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmJM09b9rKnxPn4Xjo4MvQNKWyWq6rC1I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "257739367117-kb97u08d2pu96ugj0654prggnco8m3ve.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

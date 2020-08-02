@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JoiningActivity"
+    android:background="@drawable/background_for_drawer">
+
+    <TextView
+        android:id="@+id/FriendsCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/circle_code"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35000002"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/white"
+        android:gravity="center"/>
+
+    <com.goodiebag.pinview.Pinview
+        android:id="@+id/Btn_Pinview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@id/FriendsCode"
+        app:pinHeight="50dp"
+        app:pinLength="6"
+        app:pinWidth="30dp"
+        app:cursorVisible="true"
+        app:forceKeyboard="true"
+        app:inputType="number"
+        tools:layout_editor_absoluteX="0dp"
+        app:pinBackground = "@color/colorOnboardingIndicatorInactive"
+        />
+
+    <Button
+        android:id="@+id/Btn_Submit_Pinview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_background"
+        android:onClick="OnClickSubmitButton"
+        android:text="@string/pinview_submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Btn_Pinview"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

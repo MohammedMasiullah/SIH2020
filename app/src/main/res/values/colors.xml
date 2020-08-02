@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5420E3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#FF5252</color>
+    <color name ="colorSecondary">#0ABED6</color>
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorTextSecondary">#212121</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name= "colorOnboardingIndicatorInactive">#734CE1</color>
+
+    <color name = "colorIntroPrimary">#212121</color>
+    <color name = "colorIntroPrimaryDark">#000000</color>
+    <color name = "colorIntroAccent">#757575</color>
+
+    <color name="colorwhite">#FFFFFF</color>
+    <color name="colorbackgroundlayer">#C6000000</color>
+
+
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+    <color name="grey">#8529359C</color>
+    <color name="card_color">#8529359C</color>
+
+</resources>

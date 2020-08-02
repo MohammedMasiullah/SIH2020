@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/destination"
+        android:enabled="true"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home_destination"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/hospital"
+        android:enabled="true"
+        android:title="@string/hospital"
+        android:icon="@drawable/ic_hospital"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/police"
+        android:enabled="true"
+        android:title="@string/police"
+        android:icon="@drawable/ic_police"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/bus_stop"
+        android:enabled="true"
+        android:title="@string/bus_stop"
+        android:icon="@drawable/ic_bus"
+        app:showAsAction="ifRoom"/>
+
+</menu>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/header"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+
+    <!--Need to add the background and the image for the imageview-->
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:civ_border_width="1dp"
+        android:src="@drawable/profile_image"
+        app:civ_border_color="#ffffff"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/header_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/header_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo"
+        android:textSize="14sp" />
+
+
+</LinearLayout>
