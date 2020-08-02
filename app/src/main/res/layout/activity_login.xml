@@ -20,7 +20,7 @@
         android:layout_height="match_parent"
         android:background="@color/colorbackgroundlayer"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="51dp" />
+        tools:layout_editor_absoluteY="51dp"/>
 
     <ImageView
         android:id="@+id/applogo"
